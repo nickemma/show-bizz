@@ -1,10 +1,15 @@
-import './App.css';
+import MoviePage from './components/MoviePage';
+import './App.scss';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Show Bizz</h1>
-    </div>
+    <section className="App">
+      <Navbar />
+      <MoviePage />
+      <Footer />
+    </section>
   );
 }
 
