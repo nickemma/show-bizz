@@ -26,7 +26,7 @@ ShowBizz is a website that shows you all the latest Tv-shows and Movies, you can
 
 ## Click here for live version
 
-- live demo: [coming soon]()
+- live demo: [under construction]()
 
 ## Getting Started
 
