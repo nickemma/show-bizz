@@ -16,7 +16,7 @@ const moviesReducer = (state = initialState, action) => {
 
 export const fetchMovies = createAsyncThunk(FETCH_MOVIES, async () => {
   const response = await axios.get(api);
-  return response.data.slice(0, 20);
+  return response.data.slice(0, 25);
 });
 
 export default moviesReducer;
